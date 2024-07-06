@@ -13,7 +13,11 @@ The VERGE algorithm is implemented in Matlab and is a Bayesian hierarchical regr
 
 ## Contents
 
-- `run_all.m`: run
+- `run_all.m`: the main file for running the VERGE algorithm
+- `MCMC_all.m`: the MCMC algorithm
+- `data_gen.m`: the file for gererating simulation data
+- `functions`: all the helper functions that are used in MCMC (need to be in the same folder as MCMC_all.m)
+- 
 
 
 
