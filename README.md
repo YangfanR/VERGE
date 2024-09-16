@@ -19,12 +19,12 @@ The VERGE algorithm is implemented in Matlab and is a Bayesian hierarchical regr
 - `pred.m`: the file for prediction on test data
 - `functions`: all the helper functions that are used in MCMC (need to be in the same folder with other files to run MCMC)
 - `Combo`: files for Combo case study. The original source of this data was the COMBO study described in Wu et al. (2011). Here, we share the version of the data as processed by Zhang et al. (2021).
-  * Wu, G. D., Chen, J., Hoffmann, C., Bittinger, K., Chen, Y.-Y., et al. (2011). Linking long-term dietary patterns with gut microbial enterotypes. Science 334, 105–108.
-  * Zhang, L., Shi, Y., Jenq, R. R., Do, K.-A., et al. (2021). Bayesian compositional regression with structured priors for microbiome feature selection. Biometrics 77, 824–838.
-    - `run_all.m`: the main file for running the Combo data (need to be used with MCMC_all.m and helper functions)
-    - `check_combo.R`: results and plots for the case study
-    - `X.csv, Y.csv, Z.csv`: predictors, response and covariates for the Combo data
-    - `results_combo.m`: saved results for the case study
+* Wu, G. D., Chen, J., Hoffmann, C., Bittinger, K., Chen, Y.-Y., et al. (2011). Linking long-term dietary patterns with gut microbial enterotypes. Science 334, 105–108.
+* Zhang, L., Shi, Y., Jenq, R. R., Do, K.-A., et al. (2021). Bayesian compositional regression with structured priors for microbiome feature selection. Biometrics 77, 824–838.
+  - `run_all.m`: the main file for running the Combo data (need to be used with MCMC_all.m and helper functions)
+  - `check_combo.R`: results and plots for the case study
+  - `X.csv, Y.csv, Z.csv`: predictors, response and covariates for the Combo data
+  - `results_combo.m`: saved results for the case study
 
 ## Copyright
 
