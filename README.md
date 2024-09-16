@@ -2,7 +2,7 @@
 
 This repository contains the code for the VERGE (Varying Effects Regression with Graph Estimation) algorithm as described in the manuscript accepted by Biometrics:
 
-**"Bayesian network-guided sparse regression with flexible varying effects]{Bayesian network-guided sparse regression with flexible varying effects."**
+**"Bayesian network-guided sparse regression with flexible varying effects."**
 
 
 Authors: Yangfan Ren, Christine B. Peterson, and Marina Vannucci
