@@ -18,7 +18,7 @@ The VERGE algorithm is implemented in Matlab and is a Bayesian hierarchical regr
 - `data_gen.m`: the file for generating simulation data
 - `pred.m`: the file for prediction on test data
 - `functions`: all the helper functions that are used in MCMC (need to be in the same folder with other files to run MCMC)
-- `Combo`: files for Combo case study.
+- `Combo`: files for Combo case study. The original source of this data was the COMBO study described in Wu et al. (2011). Here, we share the version of the data as processed by Zhang et al. (2021).
     - `run_all.m`: the main file for running the Combo data (needs to be used with MCMC_all.m and helper functions)
     - `check_combo.R`: results and plots for the case study
     - `X.csv, Y.csv, Z.csv`: predictors, response, and covariates for the Combo data
