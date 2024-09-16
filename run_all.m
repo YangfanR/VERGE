@@ -14,8 +14,8 @@ b = 0.5;
 % Priors on covariate selection
 zeta_p = 0.5;
 
-nmc = 10;
-burnin = 10;
+nmc = 30000;
+burnin = 30000;
 
 % hyperparameters
 az = 1; %0.5; %shape hyperparameter for exponential weight (lambda_z)
